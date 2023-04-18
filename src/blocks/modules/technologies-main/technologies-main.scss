@@ -1,0 +1,60 @@
+.technologies-main {
+  &__row {
+    img {
+      margin-block: 0;
+      border-radius: 100%;
+      height: 100%;
+      max-width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  &__skills-tags {
+    display: flex;
+    gap: $indmin;
+    flex-wrap: wrap;
+  }
+
+  &__skill {
+    padding: 5px 15px;
+    background-color: $disabled;
+    border-radius: 15px;
+    color: $bg-color;
+
+    &.aquamarine {
+      background-color: $aquamarine;
+    }
+
+    &.lightblue {
+      background-color: $lightblue;
+    }
+
+    &.lightpurple {
+      background-color: $lightpurple;
+    }
+    &.darkblue {
+      background-color: $darkblue;
+    }
+    &.green {
+      background-color: $green;
+    }
+    &.lightgreen {
+      background-color: $lightgreen;
+    }
+    &.black {
+      background-color: $black;
+    }
+    &.orange {
+      background-color: $orange;
+    }
+    &.lightyellow {
+      background-color: $lightyellow;
+    }
+    &.lightbrown {
+      background-color: $lightbrown;
+    }
+    &.darkgrey {
+      background-color: $darkgrey;
+    }
+  }
+}

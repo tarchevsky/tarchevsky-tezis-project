@@ -1,0 +1,23 @@
+.portfolio {
+  &__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 280px;
+    padding: $ind;
+
+    h3, p {
+      z-index: 1;
+      opacity: 0;
+      color: $hover-color;
+      transition: opacity $transition;
+    }
+
+    &:hover {
+      h3, p {
+        opacity: 1;
+      }
+    }
+  }
+}

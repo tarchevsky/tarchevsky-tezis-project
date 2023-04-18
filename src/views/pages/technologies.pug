@@ -1,0 +1,24 @@
+extends ../layouts/default
+
+block variables
+    - const title = "tarchevsky.tezis | Технологии, которыми я владею, работы, которые я выполнил"
+    - const description = "О моей работе, технологиях, языках и библиотеках, которые я использую в работе, о моих работах и кейсах"
+    - const keywords = "технологии, портфолио, библиотеки разработчика, обо мне, работы"
+
+block header
+    include ../../blocks/modules/technologies-header/technologies-header
+
+block content
+    .content
+        include ../../blocks/modules/technologies-main/technologies-main
+        include ../../blocks/modules/portfolio/portfolio
+
+block footer
+    include ../../blocks/modules/footer/footer
+
+block modal
+    include ../../blocks/components/modal/modal
+
+block scripts
+    //script(src="js/vendor.js")
+    script(src="js/main.js")

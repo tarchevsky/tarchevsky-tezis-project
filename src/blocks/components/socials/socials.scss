@@ -1,0 +1,16 @@
+.socials {
+  display: flex;
+  gap: $indmin;
+
+  &__icon {
+    font-size: 2.188rem; // 35px
+    cursor: pointer;
+    color: $disabled;
+    border: none;
+    transition: color $transition;
+
+    &:hover {
+      color: $base-color;
+    }
+  }
+}
